@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Giving a Background color to your splashscreen-->
+    <item android:drawable="@color/white"/>
+    <item android:gravity="bottom"
+        android:drawable="@drawable/name" />
+    <item>
+<!--"Gravity" attribute means where you want to place the image on the screen-->
+        <bitmap android:src="@drawable/logo2" android:gravity="center"/>
+    </item>
+</layer-list>
